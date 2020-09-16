@@ -4,7 +4,7 @@ Author: https://forum.cfx.re/u/dividerz/summary
 Support: Arne#7777 on Discord
 
 # REQUIREMENTS / DEPENDENCIES
-- es_extended (legacy) -> https://github.com/esx-framework/es_extended/tree/legacy
+- es_extended (legacy) -> https://github.com/esx-framework/es_extended/tree/v1-final
 - bob74_ipl -> https://github.com/Bob74/bob74_ipl
 - progressBar -> https://github.com/EthanPeacock/progressBars/releases/tag/1.0
 
