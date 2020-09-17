@@ -48,14 +48,14 @@ Citizen.CreateThread(function()
     while true do
         Citizen.Wait(1)
         if ESX ~= nil and isLoggedIn then
-            ESX.TriggerServerCallback('x-crimispots:server:hasMethKey', function(cb)
+            ESX.TriggerServerCallback('esx_druglabs:server:hasMethKey', function(cb)
                 if cb then
                     hasMethKey = true
                 else
                     hasMethKey = false
                 end
             end)
-            ESX.TriggerServerCallback('x-crimispots:server:hasCokeKey', function(cb)
+            ESX.TriggerServerCallback('esx_druglabs:server:hasCokeKey', function(cb)
                 if cb then
                     hasCokeKey = true
                 else
